@@ -73,7 +73,7 @@ The task was formulated as a **binary classification problem** with the objectiv
 ### Key challenges
 
 - Extreme class imbalance  
-- High-dimensional sparse feature space  
+- sparse feature 
 - Behavioral identification from browsing patterns  
 
 ---
@@ -165,7 +165,7 @@ LogisticRegression(
 
 ## Why Logistic Regression?
 
-- Performs well with **high-dimensional sparse data**
+- Performs well with **sparse data**
 - Efficient for **TF-IDF features**
 - Provides **interpretable coefficients**
 
@@ -236,7 +236,7 @@ Joe used multiple browsers and operating systems, so device features were useful
 Joe’s sessions occurred at various times, making time-based features less significant.
 
 ### 4. Sparse TF-IDF features favor linear models
-Because the dataset contains high-dimensional sparse features, **Logistic Regression performed better than tree-based models**.
+Because the dataset contains sparse features, **Logistic Regression performed better than tree-based models**.
 
 ---
 
