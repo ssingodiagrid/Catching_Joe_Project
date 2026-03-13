@@ -276,15 +276,8 @@ catching-joe/
 │   └── verify.json
 │
 ├── notebooks/
-│   └── joe_detection.ipynb
-│
-├── models/
-│   ├── joe_detector_model.pkl
-│   ├── tfidf_vectorizer.pkl
-│   └── device_encoder.pkl
-│
-├── outputs/
-│   └── joe_predictions.csv
+│   └── eda.ipynb
+|   
 │
 └── README.md
 ```
